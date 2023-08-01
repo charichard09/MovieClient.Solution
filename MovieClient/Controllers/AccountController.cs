@@ -63,7 +63,13 @@ namespace MovieClient.Controllers
 
     public ActionResult Login()
     {
-      return View();
+      var model = new LoginViewModel
+      {
+        Email = "Thor@Thor.com",
+        Password = "JaneFoster"
+      };
+
+      return View(model);
     }
 
     [HttpPost]

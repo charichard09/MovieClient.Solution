@@ -51,7 +51,7 @@ namespace MovieClient.Models
         {"Science Fiction", 878},
         {"TV Movie", 10770},
         {"Thriller", 53 },
-        {" War", 10752},
+        {"War", 10752},
         {"Western", 37} 
       };
 

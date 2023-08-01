@@ -5,7 +5,9 @@
 
 @using MovieClient.Models
 
-<h1>Advanced Search</h1>
+<div style="text-align: center;">
+<span class="my-movie-title">Advanced Search</span>
+<br>
 
 <!-- BeginForm(HtmlHelper, controller, action, route, FormMethod) -->
 @using (Html.BeginForm("AdvSearch", "Movies", FormMethod.Get))
@@ -19,8 +21,9 @@
     })
     @Html.TextBox("query", "") 
 
-    <input type="submit" value="Search" />
+        <input type="submit" value="Search" class="btn btn-sm my-2 my-sm-2 btn-outline-dark"/>
 }
+</div>
 
 <div class="container-movie">
 

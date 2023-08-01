@@ -166,6 +166,28 @@ flex-flow: row wrap;
   scrollbar-width: thin;
 }
 
+
+
+/* width */
+:-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(236, 227, 209);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(236, 227, 209);
+}
+
 hr {
   -moz-box-sizing: border-box;
   -moz-float-edge: margin-box;
@@ -264,7 +286,7 @@ input {
   margin-bottom: 1rem;
 }
 
-label {
+label, select {
   font-weight: 300;
   padding: 5px;
   margin: 10px 5px 5px 10px;
